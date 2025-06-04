@@ -1,0 +1,842 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Enciclopedia R",
+    "section": "",
+    "text": "Preface\nEsta es una recopilación de paquetes y sus funciones con ejemplos de implementación. Los códigos están pensados para ser trabajados desde rstudio.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "dplyr.html",
+    "href": "dplyr.html",
+    "title": "1  dplyr",
+    "section": "",
+    "text": "1.1 OPERACIONES SOBRE FILAS",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "dplyr.html#operaciones-sobre-filas",
+    "href": "dplyr.html#operaciones-sobre-filas",
+    "title": "1  dplyr",
+    "section": "",
+    "text": "filter()\n\n\narrange() & desc()\n\n\ndistinct()",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "dplyr.html#operaciones-sobre-columnas",
+    "href": "dplyr.html#operaciones-sobre-columnas",
+    "title": "1  dplyr",
+    "section": "1.2 OPERACIONES SOBRE COLUMNAS",
+    "text": "1.2 OPERACIONES SOBRE COLUMNAS\n\nselect()\n\n\nrename()\n\n\nrename_with()\n\n\nrelocate()\n\n\npull()\n\n\nmutate()\n\n\nacross()\n\n\ncur_column()\n\n\npick()\n\n\nadd_count()\n\n\nadd_tally()",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "dplyr.html#operaciones-sobre-vectores",
+    "href": "dplyr.html#operaciones-sobre-vectores",
+    "title": "1  dplyr",
+    "section": "1.3 OPERACIONES SOBRE VECTORES",
+    "text": "1.3 OPERACIONES SOBRE VECTORES\n\nlag()\n\n\nlead()\n\n\nn_distinct()\n\n\nnth()\n\n\nfirst()\n\n\nlast()",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "dplyr.html#generacion-de-grupos",
+    "href": "dplyr.html#generacion-de-grupos",
+    "title": "1  dplyr",
+    "section": "1.4 GENERACION DE GRUPOS",
+    "text": "1.4 GENERACION DE GRUPOS\n\ngroup_by()\n\n\nungroup()\n\n\nsummarize() & summarise()\n\n\nslice_*()\n\n\nn()\n\n\ntally()\n\n\ncount()",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "dplyr.html#joins",
+    "href": "dplyr.html#joins",
+    "title": "1  dplyr",
+    "section": "1.5 JOINS",
+    "text": "1.5 JOINS\n\nresumen\n\n\ninner_join()\n\n\nfull_join()\n\n\nleft_join()\n\n\nright_join()\n\n\nanti_join()\n\n\nsemi_join()\n\n\ncross_join()\n\n\nnest_join()",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "dplyr.html#operaciones-lógicas",
+    "href": "dplyr.html#operaciones-lógicas",
+    "title": "1  dplyr",
+    "section": "1.6 OPERACIONES LÓGICAS",
+    "text": "1.6 OPERACIONES LÓGICAS\n\nif_else()\n\n\ncase_when()\n\n\ncase_match()\n\n\nbetween()",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "dplyr.html#acumulación-de-dataframes",
+    "href": "dplyr.html#acumulación-de-dataframes",
+    "title": "1  dplyr",
+    "section": "1.7 ACUMULACIÓN DE DATAFRAMES",
+    "text": "1.7 ACUMULACIÓN DE DATAFRAMES\n\nbind_rows()\n\n\nbind_cols()",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "purrr.html",
+    "href": "purrr.html",
+    "title": "2  purrr",
+    "section": "",
+    "text": "2.1 INTRODUCCIÓN",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>purrr</span>"
+    ]
+  },
+  {
+    "objectID": "purrr.html#introducción",
+    "href": "purrr.html#introducción",
+    "title": "2  purrr",
+    "section": "",
+    "text": "map: función que itera por un conjunto de elementos y cuyo output es una lista donde cada elemento de la lista corresponde al resultado de la operación para cada elemento iterado.\nwalk: función que itera por un conjunto de elementos que no genera un output concreto, es una función procedimental (generar prints o gráficos, etc).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>purrr</span>"
+    ]
+  },
+  {
+    "objectID": "purrr.html#iteración",
+    "href": "purrr.html#iteración",
+    "title": "2  purrr",
+    "section": "2.2 ITERACIÓN",
+    "text": "2.2 ITERACIÓN\nA continuación se presenta un conjunto de lógicas de iteración que obedecen a la regla:\n“si se itera por __ –&gt; cada elemento de iteración es ___”\n\ndf (excepto pmap/pwalk) –&gt; cada columna del df.\ndf (pmap/pwalk) –&gt; cada fila del df.\nvector –&gt; cada elemento del vector.\nlista –&gt; cada elemento de la lista.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>purrr</span>"
+    ]
+  },
+  {
+    "objectID": "purrr.html#tipos-de-output",
+    "href": "purrr.html#tipos-de-output",
+    "title": "2  purrr",
+    "section": "2.3 TIPOS DE OUTPUT",
+    "text": "2.3 TIPOS DE OUTPUT\nDependiendo del tipo de output que se quiere en la lista final se puede agregar un “apellido” a la función segun la siguiente lógica:\n\n_lgl → output valor lógico (TRUE/FALSE).\n_int → output valor numérico entero.\n_dbl → output valor numérico que permite decimales.\n_chr → output character.\n_vec → output vector simplificado.\n_df → output dataframe\n_dfr → output dataframe unido por fila (ya no retorna lista, sino un dataframe único).\n_dfc → output dataframe unido por columna (ya no retorna lista, sino un dataframe único).\n\nLos elementos _df, _dfr, _dfc ya no se recomiendan usar, en lugar de ellos se recomienda utilizar map y luego usar list_rbind() o list_cbind() para realizar la union de las bases.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>purrr</span>"
+    ]
+  },
+  {
+    "objectID": "purrr.html#iteraciones",
+    "href": "purrr.html#iteraciones",
+    "title": "2  purrr",
+    "section": "2.4 ITERACIONES",
+    "text": "2.4 ITERACIONES\n\nmap() | walk()\niterar por un elemento con una función de 1 parámetro, el valor.\nFormato de código básico:\niterador %&gt;% \n  map(function(.x){\n    # .x: valor del elemento de iteración actual\n    \n    # --- operación ---\n  })\nEjemplo:\nvector &lt;- c(1, 5, 4, 3, 10)\n\nresultado &lt;-\n  vector %&gt;% \n  map(function(.x){\n    .x * 10\n  })\n\n\n\n\n\nmap2() | walk2()\niterar por 2 elementos con una función de 1 parámetro para cada elemento.\nFormato de código básico:\nmap2(\n  iterador1, \n  iterador2, \n  function(param1, param2){\n    # param1: valor del elemento de iterador 1 para la iteración actual.\n    # param2: valor del elemento de iterador 2 para la iteración actual.\n    operacion\n  }\n)\nEjemplo:\nlista1 &lt;- list(1, 5, 10, 4, 2)\nlista2 &lt;- list(6, 5, 11, 9, 5)\n\nresultado &lt;-\n  map2(\n    lista1,\n    lista2,\n    function(param1, param2){\n      param1 + param2\n    }\n  )\n\n\n\n\n\nimap() | iwalk()\niterar por un elemento con una función de 2 parámetros, el valor y el nombre del elemento.\nFormato de código básico:\niterador %&gt;% \n  map(function(.x){\n    # .x corresponde al valor del elemento de iteración actual\n    \n    # --- operación ---\n  })\n\n\npmap() | pwalk()\nExisten dos casos notorios e independientes para esta familia.\n\niterar por listas\n\nSe debe iterar por listas que tengan el mismo tamaño y para ingresarlas en pmap deben estar en si mismas contenidas en una lista.\n\n\nFormato de código básico:\niterador %&gt;% \n  map(function(.x){\n    # .x corresponde al valor del elemento de iteración actual\n    \n    # --- operación ---\n  })\n\niterar por dataframes\n\nAl iterar por un df se fuerza a que todas las columnas de esa base de datos estén integradas en la iteración (o dará error), para no incluir algunas columnas en caso de un iterador muy largo terminar la función con “…”\nes obligatorio que los nombres de los parámetros en la función coincidan con los nombres de la columnas en el df.\n\n\nFormato de código básico:\niterador %&gt;% \n  map(function(.x){\n    # .x corresponde al valor del elemento de iteración actual\n    \n    # --- operación ---\n  })",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>purrr</span>"
+    ]
+  },
+  {
+    "objectID": "00. Rbase.html",
+    "href": "00. Rbase.html",
+    "title": "1  R base",
+    "section": "",
+    "text": "1.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>R base</span>"
+    ]
+  },
+  {
+    "objectID": "00. Rbase.html#titulo-1",
+    "href": "00. Rbase.html#titulo-1",
+    "title": "1  R base",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>R base</span>"
+    ]
+  },
+  {
+    "objectID": "01. dplyr.html",
+    "href": "01. dplyr.html",
+    "title": "2  dplyr",
+    "section": "",
+    "text": "2.1 OPERACIONES SOBRE FILAS",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "01. dplyr.html#operaciones-sobre-filas",
+    "href": "01. dplyr.html#operaciones-sobre-filas",
+    "title": "2  dplyr",
+    "section": "",
+    "text": "filter()\n\n\narrange() & desc()\n\n\ndistinct()",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "01. dplyr.html#operaciones-sobre-columnas",
+    "href": "01. dplyr.html#operaciones-sobre-columnas",
+    "title": "2  dplyr",
+    "section": "2.2 OPERACIONES SOBRE COLUMNAS",
+    "text": "2.2 OPERACIONES SOBRE COLUMNAS\n\nselect()\n\n\nrename()\n\n\nrename_with()\n\n\nrelocate()\n\n\npull()\n\n\nmutate()\n\n\nacross()\n\n\ncur_column()\n\n\npick()\n\n\nadd_count()\n\n\nadd_tally()",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "01. dplyr.html#operaciones-sobre-vectores",
+    "href": "01. dplyr.html#operaciones-sobre-vectores",
+    "title": "2  dplyr",
+    "section": "2.3 OPERACIONES SOBRE VECTORES",
+    "text": "2.3 OPERACIONES SOBRE VECTORES\n\nlag()\n\n\nlead()\n\n\nn_distinct()\n\n\nnth()\n\n\nfirst()\n\n\nlast()",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "01. dplyr.html#generacion-de-grupos",
+    "href": "01. dplyr.html#generacion-de-grupos",
+    "title": "2  dplyr",
+    "section": "2.4 GENERACION DE GRUPOS",
+    "text": "2.4 GENERACION DE GRUPOS\n\ngroup_by()\n\n\nungroup()\n\n\nsummarize() & summarise()\n\n\nslice_*()\n\n\nn()\n\n\ntally()\n\n\ncount()",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "01. dplyr.html#joins",
+    "href": "01. dplyr.html#joins",
+    "title": "2  dplyr",
+    "section": "2.5 JOINS",
+    "text": "2.5 JOINS\n\nresumen\n\n\ninner_join()\n\n\nfull_join()\n\n\nleft_join()\n\n\nright_join()\n\n\nanti_join()\n\n\nsemi_join()\n\n\ncross_join()\n\n\nnest_join()",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "01. dplyr.html#operaciones-lógicas",
+    "href": "01. dplyr.html#operaciones-lógicas",
+    "title": "2  dplyr",
+    "section": "2.6 OPERACIONES LÓGICAS",
+    "text": "2.6 OPERACIONES LÓGICAS\n\nif_else()\n\n\ncase_when()\n\n\ncase_match()\n\n\nbetween()",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "01. dplyr.html#acumulación-de-dataframes",
+    "href": "01. dplyr.html#acumulación-de-dataframes",
+    "title": "2  dplyr",
+    "section": "2.7 ACUMULACIÓN DE DATAFRAMES",
+    "text": "2.7 ACUMULACIÓN DE DATAFRAMES\n\nbind_rows()\n\n\nbind_cols()",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>dplyr</span>"
+    ]
+  },
+  {
+    "objectID": "02. forecats.html",
+    "href": "02. forecats.html",
+    "title": "3  forecats",
+    "section": "",
+    "text": "3.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>forecats</span>"
+    ]
+  },
+  {
+    "objectID": "02. forecats.html#titulo-1",
+    "href": "02. forecats.html#titulo-1",
+    "title": "3  forecats",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>forecats</span>"
+    ]
+  },
+  {
+    "objectID": "03. ggplot2.html",
+    "href": "03. ggplot2.html",
+    "title": "4  ggplot2",
+    "section": "",
+    "text": "4.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>ggplot2</span>"
+    ]
+  },
+  {
+    "objectID": "03. ggplot2.html#titulo-1",
+    "href": "03. ggplot2.html#titulo-1",
+    "title": "4  ggplot2",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>ggplot2</span>"
+    ]
+  },
+  {
+    "objectID": "04. lubridate.html",
+    "href": "04. lubridate.html",
+    "title": "5  lubridate",
+    "section": "",
+    "text": "5.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>lubridate</span>"
+    ]
+  },
+  {
+    "objectID": "04. lubridate.html#titulo-1",
+    "href": "04. lubridate.html#titulo-1",
+    "title": "5  lubridate",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>lubridate</span>"
+    ]
+  },
+  {
+    "objectID": "05. purrr.html",
+    "href": "05. purrr.html",
+    "title": "6  purrr",
+    "section": "",
+    "text": "6.1 INTRODUCCIÓN",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>purrr</span>"
+    ]
+  },
+  {
+    "objectID": "05. purrr.html#introducción",
+    "href": "05. purrr.html#introducción",
+    "title": "6  purrr",
+    "section": "",
+    "text": "map: función que itera por un conjunto de elementos y cuyo output es una lista donde cada elemento de la lista corresponde al resultado de la operación para cada elemento iterado.\nwalk: función que itera por un conjunto de elementos que no genera un output concreto, es una función procedimental (generar prints o gráficos, etc).",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>purrr</span>"
+    ]
+  },
+  {
+    "objectID": "05. purrr.html#iteración",
+    "href": "05. purrr.html#iteración",
+    "title": "6  purrr",
+    "section": "6.2 ITERACIÓN",
+    "text": "6.2 ITERACIÓN\nA continuación se presenta un conjunto de lógicas de iteración que obedecen a la regla:\n“si se itera por __ –&gt; cada elemento de iteración es ___”\n\ndf (excepto pmap/pwalk) –&gt; cada columna del df.\ndf (pmap/pwalk) –&gt; cada fila del df.\nvector –&gt; cada elemento del vector.\nlista –&gt; cada elemento de la lista.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>purrr</span>"
+    ]
+  },
+  {
+    "objectID": "05. purrr.html#tipos-de-output",
+    "href": "05. purrr.html#tipos-de-output",
+    "title": "6  purrr",
+    "section": "6.3 TIPOS DE OUTPUT",
+    "text": "6.3 TIPOS DE OUTPUT\nDependiendo del tipo de output que se quiere en la lista final se puede agregar un “apellido” a la función segun la siguiente lógica:\n\n_lgl → output valor lógico (TRUE/FALSE).\n_int → output valor numérico entero.\n_dbl → output valor numérico que permite decimales.\n_chr → output character.\n_vec → output vector simplificado.\n_df → output dataframe\n_dfr → output dataframe unido por fila (ya no retorna lista, sino un dataframe único).\n_dfc → output dataframe unido por columna (ya no retorna lista, sino un dataframe único).\n\nLos elementos _df, _dfr, _dfc ya no se recomiendan usar, en lugar de ellos se recomienda utilizar map y luego usar list_rbind() o list_cbind() para realizar la union de las bases.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>purrr</span>"
+    ]
+  },
+  {
+    "objectID": "05. purrr.html#iteraciones",
+    "href": "05. purrr.html#iteraciones",
+    "title": "6  purrr",
+    "section": "6.4 ITERACIONES",
+    "text": "6.4 ITERACIONES\n\nmap() | walk()\niterar por un elemento con una función de 1 parámetro, el valor.\n\n\n\n\n\n\nFormato de código básico\n\n\n\niterador %&gt;% \n  map(function(.x){\n    # .x: valor del elemento de iteración actual\n    \n    # --- operación ---\n  })\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\nvector &lt;- c(1, 5, 4, 3, 10)\n\nresultado &lt;-\n  vector %&gt;% \n  map(function(.x){\n    .x * 10\n  })\n\n\n\n\n\n\nmap2() | walk2()\niterar por 2 elementos con una función de 1 parámetro para cada elemento.\nFormato de código básico:\nmap2(\n  iterador1, \n  iterador2, \n  function(param1, param2){\n    # param1: valor del elemento de iterador 1 para la iteración actual.\n    # param2: valor del elemento de iterador 2 para la iteración actual.\n    operacion\n  }\n)\nEjemplo:\nlista1 &lt;- list(1, 5, 10, 4, 2)\nlista2 &lt;- list(6, 5, 11, 9, 5)\n\nresultado &lt;-\n  map2(\n    lista1,\n    lista2,\n    function(param1, param2){\n      param1 + param2\n    }\n  )\n\n\n\nimap() | iwalk()\niterar por un elemento con una función de 2 parámetros, el valor y el nombre del elemento.\nFormato de código básico:\niterador %&gt;% \n  map(function(.x){\n    # .x corresponde al valor del elemento de iteración actual\n    \n    # --- operación ---\n  })\n\n\npmap() | pwalk()\nExisten dos casos notorios e independientes para esta familia.\n\niterar por listas\n\nSe debe iterar por listas que tengan el mismo tamaño y para ingresarlas en pmap deben estar en si mismas contenidas en una lista.\n\n\nFormato de código básico:\niterador %&gt;% \n  map(function(.x){\n    # .x corresponde al valor del elemento de iteración actual\n    \n    # --- operación ---\n  })\n\niterar por dataframes\n\nAl iterar por un df se fuerza a que todas las columnas de esa base de datos estén integradas en la iteración (o dará error), para no incluir algunas columnas en caso de un iterador muy largo terminar la función con “…”\nes obligatorio que los nombres de los parámetros en la función coincidan con los nombres de la columnas en el df.\n\n\nFormato de código básico:\niterador %&gt;% \n  map(function(.x){\n    # .x corresponde al valor del elemento de iteración actual\n    \n    # --- operación ---\n  })",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>purrr</span>"
+    ]
+  },
+  {
+    "objectID": "06. readr.html",
+    "href": "06. readr.html",
+    "title": "7  paquete",
+    "section": "",
+    "text": "7.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>paquete</span>"
+    ]
+  },
+  {
+    "objectID": "06. readr.html#titulo-1",
+    "href": "06. readr.html#titulo-1",
+    "title": "7  paquete",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>paquete</span>"
+    ]
+  },
+  {
+    "objectID": "07. stringr.html",
+    "href": "07. stringr.html",
+    "title": "8  stringr",
+    "section": "",
+    "text": "8.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>stringr</span>"
+    ]
+  },
+  {
+    "objectID": "07. stringr.html#titulo-1",
+    "href": "07. stringr.html#titulo-1",
+    "title": "8  stringr",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>stringr</span>"
+    ]
+  },
+  {
+    "objectID": "08. tibble.html",
+    "href": "08. tibble.html",
+    "title": "9  tibble",
+    "section": "",
+    "text": "9.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>tibble</span>"
+    ]
+  },
+  {
+    "objectID": "08. tibble.html#titulo-1",
+    "href": "08. tibble.html#titulo-1",
+    "title": "9  tibble",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>tibble</span>"
+    ]
+  },
+  {
+    "objectID": "09. tidyr.html",
+    "href": "09. tidyr.html",
+    "title": "10  tidyr",
+    "section": "",
+    "text": "10.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>tidyr</span>"
+    ]
+  },
+  {
+    "objectID": "09. tidyr.html#titulo-1",
+    "href": "09. tidyr.html#titulo-1",
+    "title": "10  tidyr",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>tidyr</span>"
+    ]
+  },
+  {
+    "objectID": "10. tidyselect.html",
+    "href": "10. tidyselect.html",
+    "title": "11  tidyselect",
+    "section": "",
+    "text": "11.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>tidyselect</span>"
+    ]
+  },
+  {
+    "objectID": "10. tidyselect.html#titulo-1",
+    "href": "10. tidyselect.html#titulo-1",
+    "title": "11  tidyselect",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>tidyselect</span>"
+    ]
+  },
+  {
+    "objectID": "11. fs.html",
+    "href": "11. fs.html",
+    "title": "12  fs",
+    "section": "",
+    "text": "12.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>fs</span>"
+    ]
+  },
+  {
+    "objectID": "11. fs.html#titulo-1",
+    "href": "11. fs.html#titulo-1",
+    "title": "12  fs",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>fs</span>"
+    ]
+  },
+  {
+    "objectID": "12. readxl.html",
+    "href": "12. readxl.html",
+    "title": "13  readxl",
+    "section": "",
+    "text": "13.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>readxl</span>"
+    ]
+  },
+  {
+    "objectID": "12. readxl.html#titulo-1",
+    "href": "12. readxl.html#titulo-1",
+    "title": "13  readxl",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>readxl</span>"
+    ]
+  },
+  {
+    "objectID": "13. glue.html",
+    "href": "13. glue.html",
+    "title": "14  glue",
+    "section": "",
+    "text": "14.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>glue</span>"
+    ]
+  },
+  {
+    "objectID": "13. glue.html#titulo-1",
+    "href": "13. glue.html#titulo-1",
+    "title": "14  glue",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>glue</span>"
+    ]
+  },
+  {
+    "objectID": "14. haven.html",
+    "href": "14. haven.html",
+    "title": "15  haven",
+    "section": "",
+    "text": "15.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>haven</span>"
+    ]
+  },
+  {
+    "objectID": "14. haven.html#titulo-1",
+    "href": "14. haven.html#titulo-1",
+    "title": "15  haven",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>haven</span>"
+    ]
+  },
+  {
+    "objectID": "15. here.html",
+    "href": "15. here.html",
+    "title": "16  here",
+    "section": "",
+    "text": "16.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>here</span>"
+    ]
+  },
+  {
+    "objectID": "15. here.html#titulo-1",
+    "href": "15. here.html#titulo-1",
+    "title": "16  here",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>here</span>"
+    ]
+  },
+  {
+    "objectID": "16. hms.html",
+    "href": "16. hms.html",
+    "title": "17  hms",
+    "section": "",
+    "text": "17.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>hms</span>"
+    ]
+  },
+  {
+    "objectID": "16. hms.html#titulo-1",
+    "href": "16. hms.html#titulo-1",
+    "title": "17  hms",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>hms</span>"
+    ]
+  },
+  {
+    "objectID": "17. gt.html",
+    "href": "17. gt.html",
+    "title": "18  gt",
+    "section": "",
+    "text": "18.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>gt</span>"
+    ]
+  },
+  {
+    "objectID": "17. gt.html#titulo-1",
+    "href": "17. gt.html#titulo-1",
+    "title": "18  gt",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>gt</span>"
+    ]
+  },
+  {
+    "objectID": "18. quarto.html",
+    "href": "18. quarto.html",
+    "title": "19  quarto",
+    "section": "",
+    "text": "19.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>quarto</span>"
+    ]
+  },
+  {
+    "objectID": "18. quarto.html#titulo-1",
+    "href": "18. quarto.html#titulo-1",
+    "title": "19  quarto",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>quarto</span>"
+    ]
+  },
+  {
+    "objectID": "19. tidylog.html",
+    "href": "19. tidylog.html",
+    "title": "20  tidylog",
+    "section": "",
+    "text": "20.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>tidylog</span>"
+    ]
+  },
+  {
+    "objectID": "19. tidylog.html#titulo-1",
+    "href": "19. tidylog.html#titulo-1",
+    "title": "20  tidylog",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>tidylog</span>"
+    ]
+  },
+  {
+    "objectID": "20. janitor.html",
+    "href": "20. janitor.html",
+    "title": "21  janitor",
+    "section": "",
+    "text": "21.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>janitor</span>"
+    ]
+  },
+  {
+    "objectID": "20. janitor.html#titulo-1",
+    "href": "20. janitor.html#titulo-1",
+    "title": "21  janitor",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>janitor</span>"
+    ]
+  },
+  {
+    "objectID": "21. CTT.html",
+    "href": "21. CTT.html",
+    "title": "22  CTT",
+    "section": "",
+    "text": "22.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>CTT</span>"
+    ]
+  },
+  {
+    "objectID": "21. CTT.html#titulo-1",
+    "href": "21. CTT.html#titulo-1",
+    "title": "22  CTT",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>CTT</span>"
+    ]
+  },
+  {
+    "objectID": "22. Mplus Automation.html",
+    "href": "22. Mplus Automation.html",
+    "title": "23  Mplus Automation",
+    "section": "",
+    "text": "23.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Mplus Automation</span>"
+    ]
+  },
+  {
+    "objectID": "22. Mplus Automation.html#titulo-1",
+    "href": "22. Mplus Automation.html#titulo-1",
+    "title": "23  Mplus Automation",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Mplus Automation</span>"
+    ]
+  },
+  {
+    "objectID": "23. TAM.html",
+    "href": "23. TAM.html",
+    "title": "24  TAM",
+    "section": "",
+    "text": "24.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>TAM</span>"
+    ]
+  },
+  {
+    "objectID": "23. TAM.html#titulo-1",
+    "href": "23. TAM.html#titulo-1",
+    "title": "24  TAM",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>TAM</span>"
+    ]
+  },
+  {
+    "objectID": "24. mirt.html",
+    "href": "24. mirt.html",
+    "title": "25  mirt",
+    "section": "",
+    "text": "25.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>mirt</span>"
+    ]
+  },
+  {
+    "objectID": "24. mirt.html#titulo-1",
+    "href": "24. mirt.html#titulo-1",
+    "title": "25  mirt",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>mirt</span>"
+    ]
+  },
+  {
+    "objectID": "25. psych.html",
+    "href": "25. psych.html",
+    "title": "26  psych",
+    "section": "",
+    "text": "26.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>psych</span>"
+    ]
+  },
+  {
+    "objectID": "25. psych.html#titulo-1",
+    "href": "25. psych.html#titulo-1",
+    "title": "26  psych",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>psych</span>"
+    ]
+  },
+  {
+    "objectID": "26. corrr.html",
+    "href": "26. corrr.html",
+    "title": "27  corrr",
+    "section": "",
+    "text": "27.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>corrr</span>"
+    ]
+  },
+  {
+    "objectID": "26. corrr.html#titulo-1",
+    "href": "26. corrr.html#titulo-1",
+    "title": "27  corrr",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>corrr</span>"
+    ]
+  },
+  {
+    "objectID": "27. Survey.html",
+    "href": "27. Survey.html",
+    "title": "28  survey",
+    "section": "",
+    "text": "28.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>survey</span>"
+    ]
+  },
+  {
+    "objectID": "27. Survey.html#titulo-1",
+    "href": "27. Survey.html#titulo-1",
+    "title": "28  survey",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>survey</span>"
+    ]
+  },
+  {
+    "objectID": "28. shiny.html",
+    "href": "28. shiny.html",
+    "title": "29  shiny",
+    "section": "",
+    "text": "29.1 titulo 1",
+    "crumbs": [
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>shiny</span>"
+    ]
+  },
+  {
+    "objectID": "28. shiny.html#titulo-1",
+    "href": "28. shiny.html#titulo-1",
+    "title": "29  shiny",
+    "section": "",
+    "text": "titulo 2",
+    "crumbs": [
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>shiny</span>"
+    ]
+  }
+]
