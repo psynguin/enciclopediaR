@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tom Baladrón">
-<meta name="dcterms.date" content="2025-06-04">
 
-<title>Enciclopedia R</title>
+<title>2&nbsp; dplyr – Enciclopedia R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./01. Rbase.html" rel="next">
+<link href="./03. forecats.html" rel="next">
+<link href="./01. Rbase.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -83,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./02. dplyr.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">dplyr</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -110,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Preface</span></a>
   </div>
 </li>
@@ -122,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02. dplyr.html" class="sidebar-item-text sidebar-link">
+  <a href="./02. dplyr.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">dplyr</span></span></a>
   </div>
 </li>
@@ -304,7 +303,69 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contenidos capítulo</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
+  <li><a href="#operaciones-sobre-filas" id="toc-operaciones-sobre-filas" class="nav-link active" data-scroll-target="#operaciones-sobre-filas"><span class="header-section-number">2.1</span> OPERACIONES SOBRE FILAS</a>
+  <ul class="collapse">
+  <li><a href="#filter" id="toc-filter" class="nav-link" data-scroll-target="#filter">filter()</a></li>
+  <li><a href="#arrange-desc" id="toc-arrange-desc" class="nav-link" data-scroll-target="#arrange-desc">arrange() &amp; desc()</a></li>
+  <li><a href="#distinct" id="toc-distinct" class="nav-link" data-scroll-target="#distinct">distinct()</a></li>
+  </ul></li>
+  <li><a href="#operaciones-sobre-columnas" id="toc-operaciones-sobre-columnas" class="nav-link" data-scroll-target="#operaciones-sobre-columnas"><span class="header-section-number">2.2</span> OPERACIONES SOBRE COLUMNAS</a>
+  <ul class="collapse">
+  <li><a href="#select" id="toc-select" class="nav-link" data-scroll-target="#select">select()</a></li>
+  <li><a href="#rename" id="toc-rename" class="nav-link" data-scroll-target="#rename">rename()</a></li>
+  <li><a href="#rename_with" id="toc-rename_with" class="nav-link" data-scroll-target="#rename_with">rename_with()</a></li>
+  <li><a href="#relocate" id="toc-relocate" class="nav-link" data-scroll-target="#relocate">relocate()</a></li>
+  <li><a href="#pull" id="toc-pull" class="nav-link" data-scroll-target="#pull">pull()</a></li>
+  <li><a href="#mutate" id="toc-mutate" class="nav-link" data-scroll-target="#mutate">mutate()</a></li>
+  <li><a href="#across" id="toc-across" class="nav-link" data-scroll-target="#across">across()</a></li>
+  <li><a href="#cur_column" id="toc-cur_column" class="nav-link" data-scroll-target="#cur_column">cur_column()</a></li>
+  <li><a href="#pick" id="toc-pick" class="nav-link" data-scroll-target="#pick">pick()</a></li>
+  <li><a href="#add_count" id="toc-add_count" class="nav-link" data-scroll-target="#add_count">add_count()</a></li>
+  <li><a href="#add_tally" id="toc-add_tally" class="nav-link" data-scroll-target="#add_tally">add_tally()</a></li>
+  </ul></li>
+  <li><a href="#operaciones-sobre-vectores" id="toc-operaciones-sobre-vectores" class="nav-link" data-scroll-target="#operaciones-sobre-vectores"><span class="header-section-number">2.3</span> OPERACIONES SOBRE VECTORES</a>
+  <ul class="collapse">
+  <li><a href="#lag" id="toc-lag" class="nav-link" data-scroll-target="#lag">lag()</a></li>
+  <li><a href="#lead" id="toc-lead" class="nav-link" data-scroll-target="#lead">lead()</a></li>
+  <li><a href="#n_distinct" id="toc-n_distinct" class="nav-link" data-scroll-target="#n_distinct">n_distinct()</a></li>
+  <li><a href="#nth" id="toc-nth" class="nav-link" data-scroll-target="#nth">nth()</a></li>
+  <li><a href="#first" id="toc-first" class="nav-link" data-scroll-target="#first">first()</a></li>
+  <li><a href="#last" id="toc-last" class="nav-link" data-scroll-target="#last">last()</a></li>
+  </ul></li>
+  <li><a href="#generacion-de-grupos" id="toc-generacion-de-grupos" class="nav-link" data-scroll-target="#generacion-de-grupos"><span class="header-section-number">2.4</span> GENERACION DE GRUPOS</a>
+  <ul class="collapse">
+  <li><a href="#group_by" id="toc-group_by" class="nav-link" data-scroll-target="#group_by">group_by()</a></li>
+  <li><a href="#ungroup" id="toc-ungroup" class="nav-link" data-scroll-target="#ungroup">ungroup()</a></li>
+  <li><a href="#summarize-summarise" id="toc-summarize-summarise" class="nav-link" data-scroll-target="#summarize-summarise">summarize() &amp; summarise()</a></li>
+  <li><a href="#slice_" id="toc-slice_" class="nav-link" data-scroll-target="#slice_">slice_*()</a></li>
+  <li><a href="#n" id="toc-n" class="nav-link" data-scroll-target="#n">n()</a></li>
+  <li><a href="#tally" id="toc-tally" class="nav-link" data-scroll-target="#tally">tally()</a></li>
+  <li><a href="#count" id="toc-count" class="nav-link" data-scroll-target="#count">count()</a></li>
+  </ul></li>
+  <li><a href="#joins" id="toc-joins" class="nav-link" data-scroll-target="#joins"><span class="header-section-number">2.5</span> JOINS</a>
+  <ul class="collapse">
+  <li><a href="#resumen" id="toc-resumen" class="nav-link" data-scroll-target="#resumen">resumen</a></li>
+  <li><a href="#inner_join" id="toc-inner_join" class="nav-link" data-scroll-target="#inner_join">inner_join()</a></li>
+  <li><a href="#full_join" id="toc-full_join" class="nav-link" data-scroll-target="#full_join">full_join()</a></li>
+  <li><a href="#left_join" id="toc-left_join" class="nav-link" data-scroll-target="#left_join">left_join()</a></li>
+  <li><a href="#right_join" id="toc-right_join" class="nav-link" data-scroll-target="#right_join">right_join()</a></li>
+  <li><a href="#anti_join" id="toc-anti_join" class="nav-link" data-scroll-target="#anti_join">anti_join()</a></li>
+  <li><a href="#semi_join" id="toc-semi_join" class="nav-link" data-scroll-target="#semi_join">semi_join()</a></li>
+  <li><a href="#cross_join" id="toc-cross_join" class="nav-link" data-scroll-target="#cross_join">cross_join()</a></li>
+  <li><a href="#nest_join" id="toc-nest_join" class="nav-link" data-scroll-target="#nest_join">nest_join()</a></li>
+  </ul></li>
+  <li><a href="#operaciones-lógicas" id="toc-operaciones-lógicas" class="nav-link" data-scroll-target="#operaciones-lógicas"><span class="header-section-number">2.6</span> OPERACIONES LÓGICAS</a>
+  <ul class="collapse">
+  <li><a href="#if_else" id="toc-if_else" class="nav-link" data-scroll-target="#if_else">if_else()</a></li>
+  <li><a href="#case_when" id="toc-case_when" class="nav-link" data-scroll-target="#case_when">case_when()</a></li>
+  <li><a href="#case_match" id="toc-case_match" class="nav-link" data-scroll-target="#case_match">case_match()</a></li>
+  <li><a href="#between" id="toc-between" class="nav-link" data-scroll-target="#between">between()</a></li>
+  </ul></li>
+  <li><a href="#acumulación-de-dataframes" id="toc-acumulación-de-dataframes" class="nav-link" data-scroll-target="#acumulación-de-dataframes"><span class="header-section-number">2.7</span> ACUMULACIÓN DE DATAFRAMES</a>
+  <ul class="collapse">
+  <li><a href="#bind_rows" id="toc-bind_rows" class="nav-link" data-scroll-target="#bind_rows">bind_rows()</a></li>
+  <li><a href="#bind_cols" id="toc-bind_cols" class="nav-link" data-scroll-target="#bind_cols">bind_cols()</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -313,26 +374,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Enciclopedia R</h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">dplyr</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Tom Baladrón </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">June 4, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -342,11 +391,154 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="preface" class="level1 unnumbered">
-<h1 class="unnumbered">Preface</h1>
-<p>Esta es una recopilación de paquetes y sus funciones con ejemplos de implementación. Los códigos están pensados para ser trabajados desde rstudio.</p>
+<section id="operaciones-sobre-filas" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="operaciones-sobre-filas"><span class="header-section-number">2.1</span> OPERACIONES SOBRE FILAS</h2>
+<section id="filter" class="level3">
+<h3 class="anchored" data-anchor-id="filter">filter()</h3>
+</section>
+<section id="arrange-desc" class="level3">
+<h3 class="anchored" data-anchor-id="arrange-desc">arrange() &amp; desc()</h3>
+</section>
+<section id="distinct" class="level3">
+<h3 class="anchored" data-anchor-id="distinct">distinct()</h3>
+</section>
+</section>
+<section id="operaciones-sobre-columnas" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="operaciones-sobre-columnas"><span class="header-section-number">2.2</span> OPERACIONES SOBRE COLUMNAS</h2>
+<section id="select" class="level3">
+<h3 class="anchored" data-anchor-id="select">select()</h3>
+</section>
+<section id="rename" class="level3">
+<h3 class="anchored" data-anchor-id="rename">rename()</h3>
+</section>
+<section id="rename_with" class="level3">
+<h3 class="anchored" data-anchor-id="rename_with">rename_with()</h3>
+</section>
+<section id="relocate" class="level3">
+<h3 class="anchored" data-anchor-id="relocate">relocate()</h3>
+</section>
+<section id="pull" class="level3">
+<h3 class="anchored" data-anchor-id="pull">pull()</h3>
+</section>
+<section id="mutate" class="level3">
+<h3 class="anchored" data-anchor-id="mutate">mutate()</h3>
+</section>
+<section id="across" class="level3">
+<h3 class="anchored" data-anchor-id="across">across()</h3>
+</section>
+<section id="cur_column" class="level3">
+<h3 class="anchored" data-anchor-id="cur_column">cur_column()</h3>
+</section>
+<section id="pick" class="level3">
+<h3 class="anchored" data-anchor-id="pick">pick()</h3>
+</section>
+<section id="add_count" class="level3">
+<h3 class="anchored" data-anchor-id="add_count">add_count()</h3>
+</section>
+<section id="add_tally" class="level3">
+<h3 class="anchored" data-anchor-id="add_tally">add_tally()</h3>
+</section>
+</section>
+<section id="operaciones-sobre-vectores" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="operaciones-sobre-vectores"><span class="header-section-number">2.3</span> OPERACIONES SOBRE VECTORES</h2>
+<section id="lag" class="level3">
+<h3 class="anchored" data-anchor-id="lag">lag()</h3>
+</section>
+<section id="lead" class="level3">
+<h3 class="anchored" data-anchor-id="lead">lead()</h3>
+</section>
+<section id="n_distinct" class="level3">
+<h3 class="anchored" data-anchor-id="n_distinct">n_distinct()</h3>
+</section>
+<section id="nth" class="level3">
+<h3 class="anchored" data-anchor-id="nth">nth()</h3>
+</section>
+<section id="first" class="level3">
+<h3 class="anchored" data-anchor-id="first">first()</h3>
+</section>
+<section id="last" class="level3">
+<h3 class="anchored" data-anchor-id="last">last()</h3>
+</section>
+</section>
+<section id="generacion-de-grupos" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="generacion-de-grupos"><span class="header-section-number">2.4</span> GENERACION DE GRUPOS</h2>
+<section id="group_by" class="level3">
+<h3 class="anchored" data-anchor-id="group_by">group_by()</h3>
+</section>
+<section id="ungroup" class="level3">
+<h3 class="anchored" data-anchor-id="ungroup">ungroup()</h3>
+</section>
+<section id="summarize-summarise" class="level3">
+<h3 class="anchored" data-anchor-id="summarize-summarise">summarize() &amp; summarise()</h3>
+</section>
+<section id="slice_" class="level3">
+<h3 class="anchored" data-anchor-id="slice_">slice_*()</h3>
+</section>
+<section id="n" class="level3">
+<h3 class="anchored" data-anchor-id="n">n()</h3>
+</section>
+<section id="tally" class="level3">
+<h3 class="anchored" data-anchor-id="tally">tally()</h3>
+</section>
+<section id="count" class="level3">
+<h3 class="anchored" data-anchor-id="count">count()</h3>
+</section>
+</section>
+<section id="joins" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="joins"><span class="header-section-number">2.5</span> JOINS</h2>
+<section id="resumen" class="level3">
+<h3 class="anchored" data-anchor-id="resumen">resumen</h3>
+</section>
+<section id="inner_join" class="level3">
+<h3 class="anchored" data-anchor-id="inner_join">inner_join()</h3>
+</section>
+<section id="full_join" class="level3">
+<h3 class="anchored" data-anchor-id="full_join">full_join()</h3>
+</section>
+<section id="left_join" class="level3">
+<h3 class="anchored" data-anchor-id="left_join">left_join()</h3>
+</section>
+<section id="right_join" class="level3">
+<h3 class="anchored" data-anchor-id="right_join">right_join()</h3>
+</section>
+<section id="anti_join" class="level3">
+<h3 class="anchored" data-anchor-id="anti_join">anti_join()</h3>
+</section>
+<section id="semi_join" class="level3">
+<h3 class="anchored" data-anchor-id="semi_join">semi_join()</h3>
+</section>
+<section id="cross_join" class="level3">
+<h3 class="anchored" data-anchor-id="cross_join">cross_join()</h3>
+</section>
+<section id="nest_join" class="level3">
+<h3 class="anchored" data-anchor-id="nest_join">nest_join()</h3>
+</section>
+</section>
+<section id="operaciones-lógicas" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="operaciones-lógicas"><span class="header-section-number">2.6</span> OPERACIONES LÓGICAS</h2>
+<section id="if_else" class="level3">
+<h3 class="anchored" data-anchor-id="if_else">if_else()</h3>
+</section>
+<section id="case_when" class="level3">
+<h3 class="anchored" data-anchor-id="case_when">case_when()</h3>
+</section>
+<section id="case_match" class="level3">
+<h3 class="anchored" data-anchor-id="case_match">case_match()</h3>
+</section>
+<section id="between" class="level3">
+<h3 class="anchored" data-anchor-id="between">between()</h3>
+</section>
+</section>
+<section id="acumulación-de-dataframes" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="acumulación-de-dataframes"><span class="header-section-number">2.7</span> ACUMULACIÓN DE DATAFRAMES</h2>
+<section id="bind_rows" class="level3">
+<h3 class="anchored" data-anchor-id="bind_rows">bind_rows()</h3>
+</section>
+<section id="bind_cols" class="level3">
+<h3 class="anchored" data-anchor-id="bind_cols">bind_cols()</h3>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -772,10 +964,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./01. Rbase.html" class="pagination-link" aria-label="R base">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">R base</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./01. Rbase.html" class="pagination-link" aria-label="R base">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">R base</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./03. forecats.html" class="pagination-link" aria-label="forecats">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">forecats</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

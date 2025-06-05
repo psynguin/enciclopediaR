@@ -10,168 +10,8 @@
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
-    ]
-  },
-  {
-    "objectID": "dplyr.html",
-    "href": "dplyr.html",
-    "title": "1  dplyr",
-    "section": "",
-    "text": "1.1 OPERACIONES SOBRE FILAS",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
-    ]
-  },
-  {
-    "objectID": "dplyr.html#operaciones-sobre-filas",
-    "href": "dplyr.html#operaciones-sobre-filas",
-    "title": "1  dplyr",
-    "section": "",
-    "text": "filter()\n\n\narrange() & desc()\n\n\ndistinct()",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
-    ]
-  },
-  {
-    "objectID": "dplyr.html#operaciones-sobre-columnas",
-    "href": "dplyr.html#operaciones-sobre-columnas",
-    "title": "1  dplyr",
-    "section": "1.2 OPERACIONES SOBRE COLUMNAS",
-    "text": "1.2 OPERACIONES SOBRE COLUMNAS\n\nselect()\n\n\nrename()\n\n\nrename_with()\n\n\nrelocate()\n\n\npull()\n\n\nmutate()\n\n\nacross()\n\n\ncur_column()\n\n\npick()\n\n\nadd_count()\n\n\nadd_tally()",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
-    ]
-  },
-  {
-    "objectID": "dplyr.html#operaciones-sobre-vectores",
-    "href": "dplyr.html#operaciones-sobre-vectores",
-    "title": "1  dplyr",
-    "section": "1.3 OPERACIONES SOBRE VECTORES",
-    "text": "1.3 OPERACIONES SOBRE VECTORES\n\nlag()\n\n\nlead()\n\n\nn_distinct()\n\n\nnth()\n\n\nfirst()\n\n\nlast()",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
-    ]
-  },
-  {
-    "objectID": "dplyr.html#generacion-de-grupos",
-    "href": "dplyr.html#generacion-de-grupos",
-    "title": "1  dplyr",
-    "section": "1.4 GENERACION DE GRUPOS",
-    "text": "1.4 GENERACION DE GRUPOS\n\ngroup_by()\n\n\nungroup()\n\n\nsummarize() & summarise()\n\n\nslice_*()\n\n\nn()\n\n\ntally()\n\n\ncount()",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
-    ]
-  },
-  {
-    "objectID": "dplyr.html#joins",
-    "href": "dplyr.html#joins",
-    "title": "1  dplyr",
-    "section": "1.5 JOINS",
-    "text": "1.5 JOINS\n\nresumen\n\n\ninner_join()\n\n\nfull_join()\n\n\nleft_join()\n\n\nright_join()\n\n\nanti_join()\n\n\nsemi_join()\n\n\ncross_join()\n\n\nnest_join()",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
-    ]
-  },
-  {
-    "objectID": "dplyr.html#operaciones-lógicas",
-    "href": "dplyr.html#operaciones-lógicas",
-    "title": "1  dplyr",
-    "section": "1.6 OPERACIONES LÓGICAS",
-    "text": "1.6 OPERACIONES LÓGICAS\n\nif_else()\n\n\ncase_when()\n\n\ncase_match()\n\n\nbetween()",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
-    ]
-  },
-  {
-    "objectID": "dplyr.html#acumulación-de-dataframes",
-    "href": "dplyr.html#acumulación-de-dataframes",
-    "title": "1  dplyr",
-    "section": "1.7 ACUMULACIÓN DE DATAFRAMES",
-    "text": "1.7 ACUMULACIÓN DE DATAFRAMES\n\nbind_rows()\n\n\nbind_cols()",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>dplyr</span>"
-    ]
-  },
-  {
-    "objectID": "purrr.html",
-    "href": "purrr.html",
-    "title": "2  purrr",
-    "section": "",
-    "text": "2.1 INTRODUCCIÓN",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>purrr</span>"
-    ]
-  },
-  {
-    "objectID": "purrr.html#introducción",
-    "href": "purrr.html#introducción",
-    "title": "2  purrr",
-    "section": "",
-    "text": "map: función que itera por un conjunto de elementos y cuyo output es una lista donde cada elemento de la lista corresponde al resultado de la operación para cada elemento iterado.\nwalk: función que itera por un conjunto de elementos que no genera un output concreto, es una función procedimental (generar prints o gráficos, etc).",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>purrr</span>"
-    ]
-  },
-  {
-    "objectID": "purrr.html#iteración",
-    "href": "purrr.html#iteración",
-    "title": "2  purrr",
-    "section": "2.2 ITERACIÓN",
-    "text": "2.2 ITERACIÓN\nA continuación se presenta un conjunto de lógicas de iteración que obedecen a la regla:\n“si se itera por __ –&gt; cada elemento de iteración es ___”\n\ndf (excepto pmap/pwalk) –&gt; cada columna del df.\ndf (pmap/pwalk) –&gt; cada fila del df.\nvector –&gt; cada elemento del vector.\nlista –&gt; cada elemento de la lista.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>purrr</span>"
-    ]
-  },
-  {
-    "objectID": "purrr.html#tipos-de-output",
-    "href": "purrr.html#tipos-de-output",
-    "title": "2  purrr",
-    "section": "2.3 TIPOS DE OUTPUT",
-    "text": "2.3 TIPOS DE OUTPUT\nDependiendo del tipo de output que se quiere en la lista final se puede agregar un “apellido” a la función segun la siguiente lógica:\n\n_lgl → output valor lógico (TRUE/FALSE).\n_int → output valor numérico entero.\n_dbl → output valor numérico que permite decimales.\n_chr → output character.\n_vec → output vector simplificado.\n_df → output dataframe\n_dfr → output dataframe unido por fila (ya no retorna lista, sino un dataframe único).\n_dfc → output dataframe unido por columna (ya no retorna lista, sino un dataframe único).\n\nLos elementos _df, _dfr, _dfc ya no se recomiendan usar, en lugar de ellos se recomienda utilizar map y luego usar list_rbind() o list_cbind() para realizar la union de las bases.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>purrr</span>"
-    ]
-  },
-  {
-    "objectID": "purrr.html#iteraciones",
-    "href": "purrr.html#iteraciones",
-    "title": "2  purrr",
-    "section": "2.4 ITERACIONES",
-    "text": "2.4 ITERACIONES\n\nmap() | walk()\niterar por un elemento con una función de 1 parámetro, el valor.\nFormato de código básico:\niterador %&gt;% \n  map(function(.x){\n    # .x: valor del elemento de iteración actual\n    \n    # --- operación ---\n  })\nEjemplo:\nvector &lt;- c(1, 5, 4, 3, 10)\n\nresultado &lt;-\n  vector %&gt;% \n  map(function(.x){\n    .x * 10\n  })\n\n\n\n\n\nmap2() | walk2()\niterar por 2 elementos con una función de 1 parámetro para cada elemento.\nFormato de código básico:\nmap2(\n  iterador1, \n  iterador2, \n  function(param1, param2){\n    # param1: valor del elemento de iterador 1 para la iteración actual.\n    # param2: valor del elemento de iterador 2 para la iteración actual.\n    operacion\n  }\n)\nEjemplo:\nlista1 &lt;- list(1, 5, 10, 4, 2)\nlista2 &lt;- list(6, 5, 11, 9, 5)\n\nresultado &lt;-\n  map2(\n    lista1,\n    lista2,\n    function(param1, param2){\n      param1 + param2\n    }\n  )\n\n\n\n\n\nimap() | iwalk()\niterar por un elemento con una función de 2 parámetros, el valor y el nombre del elemento.\nFormato de código básico:\niterador %&gt;% \n  map(function(.x){\n    # .x corresponde al valor del elemento de iteración actual\n    \n    # --- operación ---\n  })\n\n\npmap() | pwalk()\nExisten dos casos notorios e independientes para esta familia.\n\niterar por listas\n\nSe debe iterar por listas que tengan el mismo tamaño y para ingresarlas en pmap deben estar en si mismas contenidas en una lista.\n\n\nFormato de código básico:\niterador %&gt;% \n  map(function(.x){\n    # .x corresponde al valor del elemento de iteración actual\n    \n    # --- operación ---\n  })\n\niterar por dataframes\n\nAl iterar por un df se fuerza a que todas las columnas de esa base de datos estén integradas en la iteración (o dará error), para no incluir algunas columnas en caso de un iterador muy largo terminar la función con “…”\nes obligatorio que los nombres de los parámetros en la función coincidan con los nombres de la columnas en el df.\n\n\nFormato de código básico:\niterador %&gt;% \n  map(function(.x){\n    # .x corresponde al valor del elemento de iteración actual\n    \n    # --- operación ---\n  })",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>purrr</span>"
-    ]
-  },
-  {
-    "objectID": "00. Rbase.html",
-    "href": "00. Rbase.html",
+    "objectID": "01. Rbase.html",
+    "href": "01. Rbase.html",
     "title": "1  R base",
     "section": "",
     "text": "1.1 titulo 1",
@@ -180,8 +20,8 @@
     ]
   },
   {
-    "objectID": "00. Rbase.html#titulo-1",
-    "href": "00. Rbase.html#titulo-1",
+    "objectID": "01. Rbase.html#titulo-1",
+    "href": "01. Rbase.html#titulo-1",
     "title": "1  R base",
     "section": "",
     "text": "titulo 2",
@@ -190,8 +30,8 @@
     ]
   },
   {
-    "objectID": "01. dplyr.html",
-    "href": "01. dplyr.html",
+    "objectID": "02. dplyr.html",
+    "href": "02. dplyr.html",
     "title": "2  dplyr",
     "section": "",
     "text": "2.1 OPERACIONES SOBRE FILAS",
@@ -200,8 +40,8 @@
     ]
   },
   {
-    "objectID": "01. dplyr.html#operaciones-sobre-filas",
-    "href": "01. dplyr.html#operaciones-sobre-filas",
+    "objectID": "02. dplyr.html#operaciones-sobre-filas",
+    "href": "02. dplyr.html#operaciones-sobre-filas",
     "title": "2  dplyr",
     "section": "",
     "text": "filter()\n\n\narrange() & desc()\n\n\ndistinct()",
@@ -210,8 +50,8 @@
     ]
   },
   {
-    "objectID": "01. dplyr.html#operaciones-sobre-columnas",
-    "href": "01. dplyr.html#operaciones-sobre-columnas",
+    "objectID": "02. dplyr.html#operaciones-sobre-columnas",
+    "href": "02. dplyr.html#operaciones-sobre-columnas",
     "title": "2  dplyr",
     "section": "2.2 OPERACIONES SOBRE COLUMNAS",
     "text": "2.2 OPERACIONES SOBRE COLUMNAS\n\nselect()\n\n\nrename()\n\n\nrename_with()\n\n\nrelocate()\n\n\npull()\n\n\nmutate()\n\n\nacross()\n\n\ncur_column()\n\n\npick()\n\n\nadd_count()\n\n\nadd_tally()",
@@ -220,8 +60,8 @@
     ]
   },
   {
-    "objectID": "01. dplyr.html#operaciones-sobre-vectores",
-    "href": "01. dplyr.html#operaciones-sobre-vectores",
+    "objectID": "02. dplyr.html#operaciones-sobre-vectores",
+    "href": "02. dplyr.html#operaciones-sobre-vectores",
     "title": "2  dplyr",
     "section": "2.3 OPERACIONES SOBRE VECTORES",
     "text": "2.3 OPERACIONES SOBRE VECTORES\n\nlag()\n\n\nlead()\n\n\nn_distinct()\n\n\nnth()\n\n\nfirst()\n\n\nlast()",
@@ -230,8 +70,8 @@
     ]
   },
   {
-    "objectID": "01. dplyr.html#generacion-de-grupos",
-    "href": "01. dplyr.html#generacion-de-grupos",
+    "objectID": "02. dplyr.html#generacion-de-grupos",
+    "href": "02. dplyr.html#generacion-de-grupos",
     "title": "2  dplyr",
     "section": "2.4 GENERACION DE GRUPOS",
     "text": "2.4 GENERACION DE GRUPOS\n\ngroup_by()\n\n\nungroup()\n\n\nsummarize() & summarise()\n\n\nslice_*()\n\n\nn()\n\n\ntally()\n\n\ncount()",
@@ -240,8 +80,8 @@
     ]
   },
   {
-    "objectID": "01. dplyr.html#joins",
-    "href": "01. dplyr.html#joins",
+    "objectID": "02. dplyr.html#joins",
+    "href": "02. dplyr.html#joins",
     "title": "2  dplyr",
     "section": "2.5 JOINS",
     "text": "2.5 JOINS\n\nresumen\n\n\ninner_join()\n\n\nfull_join()\n\n\nleft_join()\n\n\nright_join()\n\n\nanti_join()\n\n\nsemi_join()\n\n\ncross_join()\n\n\nnest_join()",
@@ -250,8 +90,8 @@
     ]
   },
   {
-    "objectID": "01. dplyr.html#operaciones-lógicas",
-    "href": "01. dplyr.html#operaciones-lógicas",
+    "objectID": "02. dplyr.html#operaciones-lógicas",
+    "href": "02. dplyr.html#operaciones-lógicas",
     "title": "2  dplyr",
     "section": "2.6 OPERACIONES LÓGICAS",
     "text": "2.6 OPERACIONES LÓGICAS\n\nif_else()\n\n\ncase_when()\n\n\ncase_match()\n\n\nbetween()",
@@ -260,8 +100,8 @@
     ]
   },
   {
-    "objectID": "01. dplyr.html#acumulación-de-dataframes",
-    "href": "01. dplyr.html#acumulación-de-dataframes",
+    "objectID": "02. dplyr.html#acumulación-de-dataframes",
+    "href": "02. dplyr.html#acumulación-de-dataframes",
     "title": "2  dplyr",
     "section": "2.7 ACUMULACIÓN DE DATAFRAMES",
     "text": "2.7 ACUMULACIÓN DE DATAFRAMES\n\nbind_rows()\n\n\nbind_cols()",
@@ -270,8 +110,8 @@
     ]
   },
   {
-    "objectID": "02. forecats.html",
-    "href": "02. forecats.html",
+    "objectID": "03. forecats.html",
+    "href": "03. forecats.html",
     "title": "3  forecats",
     "section": "",
     "text": "3.1 titulo 1",
@@ -280,8 +120,8 @@
     ]
   },
   {
-    "objectID": "02. forecats.html#titulo-1",
-    "href": "02. forecats.html#titulo-1",
+    "objectID": "03. forecats.html#titulo-1",
+    "href": "03. forecats.html#titulo-1",
     "title": "3  forecats",
     "section": "",
     "text": "titulo 2",
@@ -290,8 +130,8 @@
     ]
   },
   {
-    "objectID": "03. ggplot2.html",
-    "href": "03. ggplot2.html",
+    "objectID": "04. ggplot2.html",
+    "href": "04. ggplot2.html",
     "title": "4  ggplot2",
     "section": "",
     "text": "4.1 titulo 1",
@@ -300,8 +140,8 @@
     ]
   },
   {
-    "objectID": "03. ggplot2.html#titulo-1",
-    "href": "03. ggplot2.html#titulo-1",
+    "objectID": "04. ggplot2.html#titulo-1",
+    "href": "04. ggplot2.html#titulo-1",
     "title": "4  ggplot2",
     "section": "",
     "text": "titulo 2",
@@ -310,8 +150,8 @@
     ]
   },
   {
-    "objectID": "04. lubridate.html",
-    "href": "04. lubridate.html",
+    "objectID": "05. lubridate.html",
+    "href": "05. lubridate.html",
     "title": "5  lubridate",
     "section": "",
     "text": "5.1 titulo 1",
@@ -320,8 +160,8 @@
     ]
   },
   {
-    "objectID": "04. lubridate.html#titulo-1",
-    "href": "04. lubridate.html#titulo-1",
+    "objectID": "05. lubridate.html#titulo-1",
+    "href": "05. lubridate.html#titulo-1",
     "title": "5  lubridate",
     "section": "",
     "text": "titulo 2",
@@ -330,8 +170,8 @@
     ]
   },
   {
-    "objectID": "05. purrr.html",
-    "href": "05. purrr.html",
+    "objectID": "06. purrr.html",
+    "href": "06. purrr.html",
     "title": "6  purrr",
     "section": "",
     "text": "6.1 INTRODUCCIÓN",
@@ -340,8 +180,8 @@
     ]
   },
   {
-    "objectID": "05. purrr.html#introducción",
-    "href": "05. purrr.html#introducción",
+    "objectID": "06. purrr.html#introducción",
+    "href": "06. purrr.html#introducción",
     "title": "6  purrr",
     "section": "",
     "text": "map: función que itera por un conjunto de elementos y cuyo output es una lista donde cada elemento de la lista corresponde al resultado de la operación para cada elemento iterado.\nwalk: función que itera por un conjunto de elementos que no genera un output concreto, es una función procedimental (generar prints o gráficos, etc).",
@@ -350,8 +190,8 @@
     ]
   },
   {
-    "objectID": "05. purrr.html#iteración",
-    "href": "05. purrr.html#iteración",
+    "objectID": "06. purrr.html#iteración",
+    "href": "06. purrr.html#iteración",
     "title": "6  purrr",
     "section": "6.2 ITERACIÓN",
     "text": "6.2 ITERACIÓN\nA continuación se presenta un conjunto de lógicas de iteración que obedecen a la regla:\n“si se itera por __ –&gt; cada elemento de iteración es ___”\n\ndf (excepto pmap/pwalk) –&gt; cada columna del df.\ndf (pmap/pwalk) –&gt; cada fila del df.\nvector –&gt; cada elemento del vector.\nlista –&gt; cada elemento de la lista.",
@@ -360,8 +200,8 @@
     ]
   },
   {
-    "objectID": "05. purrr.html#tipos-de-output",
-    "href": "05. purrr.html#tipos-de-output",
+    "objectID": "06. purrr.html#tipos-de-output",
+    "href": "06. purrr.html#tipos-de-output",
     "title": "6  purrr",
     "section": "6.3 TIPOS DE OUTPUT",
     "text": "6.3 TIPOS DE OUTPUT\nDependiendo del tipo de output que se quiere en la lista final se puede agregar un “apellido” a la función segun la siguiente lógica:\n\n_lgl → output valor lógico (TRUE/FALSE).\n_int → output valor numérico entero.\n_dbl → output valor numérico que permite decimales.\n_chr → output character.\n_vec → output vector simplificado.\n_df → output dataframe\n_dfr → output dataframe unido por fila (ya no retorna lista, sino un dataframe único).\n_dfc → output dataframe unido por columna (ya no retorna lista, sino un dataframe único).\n\nLos elementos _df, _dfr, _dfc ya no se recomiendan usar, en lugar de ellos se recomienda utilizar map y luego usar list_rbind() o list_cbind() para realizar la union de las bases.",
@@ -370,38 +210,48 @@
     ]
   },
   {
-    "objectID": "05. purrr.html#iteraciones",
-    "href": "05. purrr.html#iteraciones",
+    "objectID": "06. purrr.html#iteraciones",
+    "href": "06. purrr.html#iteraciones",
     "title": "6  purrr",
     "section": "6.4 ITERACIONES",
-    "text": "6.4 ITERACIONES\n\nmap() | walk()\niterar por un elemento con una función de 1 parámetro, el valor.\n\n\n\n\n\n\nFormato de código básico\n\n\n\niterador %&gt;% \n  map(function(.x){\n    # .x: valor del elemento de iteración actual\n    \n    # --- operación ---\n  })\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\nvector &lt;- c(1, 5, 4, 3, 10)\n\nresultado &lt;-\n  vector %&gt;% \n  map(function(.x){\n    .x * 10\n  })\n\n\n\n\n\n\nmap2() | walk2()\niterar por 2 elementos con una función de 1 parámetro para cada elemento.\nFormato de código básico:\nmap2(\n  iterador1, \n  iterador2, \n  function(param1, param2){\n    # param1: valor del elemento de iterador 1 para la iteración actual.\n    # param2: valor del elemento de iterador 2 para la iteración actual.\n    operacion\n  }\n)\nEjemplo:\nlista1 &lt;- list(1, 5, 10, 4, 2)\nlista2 &lt;- list(6, 5, 11, 9, 5)\n\nresultado &lt;-\n  map2(\n    lista1,\n    lista2,\n    function(param1, param2){\n      param1 + param2\n    }\n  )\n\n\n\nimap() | iwalk()\niterar por un elemento con una función de 2 parámetros, el valor y el nombre del elemento.\nFormato de código básico:\niterador %&gt;% \n  map(function(.x){\n    # .x corresponde al valor del elemento de iteración actual\n    \n    # --- operación ---\n  })\n\n\npmap() | pwalk()\nExisten dos casos notorios e independientes para esta familia.\n\niterar por listas\n\nSe debe iterar por listas que tengan el mismo tamaño y para ingresarlas en pmap deben estar en si mismas contenidas en una lista.\n\n\nFormato de código básico:\niterador %&gt;% \n  map(function(.x){\n    # .x corresponde al valor del elemento de iteración actual\n    \n    # --- operación ---\n  })\n\niterar por dataframes\n\nAl iterar por un df se fuerza a que todas las columnas de esa base de datos estén integradas en la iteración (o dará error), para no incluir algunas columnas en caso de un iterador muy largo terminar la función con “…”\nes obligatorio que los nombres de los parámetros en la función coincidan con los nombres de la columnas en el df.\n\n\nFormato de código básico:\niterador %&gt;% \n  map(function(.x){\n    # .x corresponde al valor del elemento de iteración actual\n    \n    # --- operación ---\n  })",
+    "text": "6.4 ITERACIONES\n\nmap() | walk()\niterar por un elemento con una función de 1 parámetro, el valor.\n\n\n\n\n\n\nFormula general\n\n\n\niterador %&gt;% \n  map(function(.x){\n    # .x: valor del elemento de iteración actual\n    \n    # --- operación ---\n  })\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\nvector &lt;- c(1, 5, 4, 3, 10)\n\nresultado &lt;-\n  vector %&gt;% \n  map(function(.x){\n    .x * 10\n  })\n\n\n\n\n\n\nmap2() | walk2()\niterar por 2 elementos con una función de 1 parámetro para cada elemento.\n\n\n\n\n\n\nFormula general\n\n\n\nmap2(\n  iterador1, \n  iterador2, \n  function(param1, param2){\n    # param1: valor del elemento de iterador 1 para la iteración actual.\n    # param2: valor del elemento de iterador 2 para la iteración actual.\n    \n    # --- operación ---\n  }\n)\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\nlista1 &lt;- list(1, 5, 10, 4, 2)\nlista2 &lt;- list(6, 5, 11, 9, 5)\n\nresultado &lt;-\n  map2(\n    lista1,\n    lista2,\n    function(param1, param2){\n      param1 + param2\n    }\n  )\n\n\n\n\n\n\nimap() | iwalk()\niterar por un elemento con una función de 2 parámetros, el valor y el nombre del elemento.\n\n\n\n\n\n\nFormula general\n\n\n\niterador %&gt;% \n  imap(function(.x, .y){\n    # .x: valor del elemento de iteración actual\n    # .y: nombre del elemento de iteración actual\n    \n    # --- operación ---\n  })\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\nlista &lt;- list(a = 1, b = 2, c = 3, d = 4)\n\nresultado &lt;-\n  lista %&gt;% \n  imap(function(.x, .y){\n    paste0(.x, \"_\", .y)\n  })\n\n\n\n\n\n\npmap() | pwalk()\nExisten dos casos notorios e independientes para esta familia.\n\niterar por listas\n\nSe debe iterar por listas que tengan el mismo tamaño y para ingresarlas en pmap deben estar en si mismas contenidas en una lista.\n\n\n\n\n\n\n\n\nFormula general\n\n\n\nlist(\n  lista1 = list(), \n  lista2 = list(), \n  lista3 = list(),\n  ...,\n  listan = list()\n) %&gt;% \npmap(function(i.lista1, i.lista2, i.lista3, ..., i.listan){\n  # i.lista1 corresponde al valor del elemento de la iteración actual para lista1\n  # i.lista2 corresponde al valor del elemento de la iteración actual para lista2\n  # i.lista3 corresponde al valor del elemento de la iteración actual para lista3\n  # i.listan corresponde al valor del elemento de la iteración actual para listan\n  \n  # --- operación ---\n})\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\nlista1 &lt;- list(1, 2, 3, 4, 5)\nlista2 &lt;- list(2, 3, 4, 5, 6)\nlista3 &lt;- list(3, 4, 5, 6, 7)\n\nresultado &lt;-\n  list(\n    lista1,\n    lista2,\n    lista3\n  ) %&gt;% \n  pmap(function(i.lista1, i.lista2, i.lista3){\n    paste0(i.lista1, i.lista2, i.lista3)\n  })\n\n\n\n\n\niterar por dataframes\n\nAl iterar por un df se fuerza a que todas las columnas de esa base de datos estén integradas en la iteración (o dará error), para no incluir algunas columnas en caso de un iterador muy largo terminar la función con “…”\nes obligatorio que los nombres de los parámetros en la función coincidan con los nombres de la columnas en el df.\n\n\n\n\n\n\n\n\nFormula general\n\n\n\ndf %&gt;% \n  map(function(col1, col2, col3, ..., coln){\n    # col1 corresponde al valor de la columna col1 para la fila iterada.\n    # col2 corresponde al valor de la columna col2 para la fila iterada.\n    # col3 corresponde al valor de la columna col3 para la fila iterada.\n    # coln corresponde al valor de la columna col4 para la fila iterada.\n    \n    # --- operación ---\n  })\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\n# crear df:\ndf &lt;- \n  tibble(\n    col1 = c(1, 2, 3, 4, 5),\n    col2 = c(2, 3, 4, 5, 6),\n    col3 = c(3, 4, 5, 6, 7)\n  )\n\n# mostrar df:\ndf %&gt;% \n  gt()\n\n\n\n\n\n\ncol1\ncol2\ncol3\n\n\n\n\n1\n2\n3\n\n\n2\n3\n4\n\n\n3\n4\n5\n\n\n4\n5\n6\n\n\n5\n6\n7\n\n\n\n\n\n# uso de pmap:\nresultado &lt;-\n  df %&gt;% \n  pmap(function(col1, col2, col3){\n    paste0(col1, col2, col3)\n  })",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>purrr</span>"
     ]
   },
   {
-    "objectID": "06. readr.html",
-    "href": "06. readr.html",
-    "title": "7  paquete",
+    "objectID": "06. purrr.html#manipulaciones-de-listasvectores",
+    "href": "06. purrr.html#manipulaciones-de-listasvectores",
+    "title": "6  purrr",
+    "section": "6.5 MANIPULACIONES DE LISTAS/VECTORES",
+    "text": "6.5 MANIPULACIONES DE LISTAS/VECTORES\n\nlist_flatten()\nAplana listas anidadas en 1 nivel desde menor a mayor anidación.\n\n\n\n\n\n\nFormula general\n\n\n\nlista %&gt;% \n  list_flatten()\n\n\n\n\n\n\n\n\nEjemplo1\n\n\n\n\n\nSi tenemos la lista:\n\nCon 1 aplanamiento:\nresultado &lt;- \n  lista %&gt;% \n  list_flatten()\n\n\n\n\n\n\n\n\n\n\nEjemplo2\n\n\n\n\n\nSi tenemos la lista:\n\nCon 2 aplanamientos:\nresultado &lt;-\n  lista %&gt;% \n  list_flatten() %&gt;% \n  list_flatten()\n\n\n\n\n\n\nlist_assign()\nModifica o crea un elemento de una lista por nombre o posición.\nCuando los parámetros tienen nombre se hace el match por nombre, si no llevan nombre se hace el match por posición.\n\n\n\n\n\n\nFormula general\n\n\n\nlista %&gt;% \n  list_assign(\n    \"nombre1\" = valor1,\n    \"nombre2\" = valor2,\n    \"nombre3\" = valor3,\n    \"nombren\" = valorn\n  )\n\nlista %&gt;% \n  list_assign(valor1, valor2, valor3, ..., valorn)\n\n\n\n\n\n\n\n\nEjemplo nombre\n\n\n\n\n\nresultado &lt;- \n  list() %&gt;% # se parte desde una lista vacía\n  list_assign(\n    \"a\" = 1,\n    \"b\" = 2,\n    \"c\" = 3\n  )\n\n\n\n\n\n\n\n\n\n\nEjemplo posicion\n\n\n\n\n\nresultado &lt;- \n  list() %&gt;% # se parte desde una lista vacía\n  list_assign(1, 2, 3)\n\n\n\n\n\n\nlist_transpose()\n\n\n\n\n\n\nFormula general\n\n\n\nlista %&gt;% \n  list_transpose()\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\nlista &lt;- \n  list(\n    a1 = list(a = 1, b = 2), \n    b1 = list(a = 3, b = 4), \n    c1 = list(a = 5, b = 6)\n  )\n\nresultado &lt;- \n  lista %&gt;% \n  list_transpose()\n\n\n\n\n\n\nlist_simplify()\nSolo para listas con 1 nivel de anidación y con elementos del mismo tipo, crea un vector con los elementos.\n\n\n\n\n\n\nFormula general\n\n\n\nlista %&gt;% \n  list_simplify()\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\nlista &lt;- \n  list(1, 2, 3, 4, 5)\n\nresultado &lt;- \n  lista %&gt;% \n  list_simplify()\n\n\n\n\n\n\nlist_cbind()\nUne dataframes contenidos en una lista en un único dataframe por columna.\n\n\n\n\n\n\nFormula general\n\n\n\nlist(\n    df1,\n    df2,\n    df3\n  ) %&gt;% \n  list_cbind()\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\ndf1 &lt;- \n  tibble(\n    a = c(1, 2, 3),\n    b = c(2, 3, 4)\n  )\n\ndf2 &lt;- \n  tibble(\n    c = c(3, 4, 5),\n    d = c(4, 5, 6)\n  )\n\ndf3 &lt;- \n  tibble(\n    e = c(5, 6, 7),\n    f = c(6, 7, 8)\n  )\n\n\n\n\n\n\n\n\n\n\n\na\n\n\nb\n\n\n\n\n\n\n1\n\n\n2\n\n\n\n\n2\n\n\n3\n\n\n\n\n3\n\n\n4\n\n\n\n\n\n\n\n\n\n\n\nc\n\n\nd\n\n\n\n\n\n\n3\n\n\n4\n\n\n\n\n4\n\n\n5\n\n\n\n\n5\n\n\n6\n\n\n\n\n\n\n\n\n\n\n\ne\n\n\nf\n\n\n\n\n\n\n5\n\n\n6\n\n\n\n\n6\n\n\n7\n\n\n\n\n7\n\n\n8\n\n\n\n\n\n\n\nlista &lt;- \n  list(df1, df2, df3)\n\nresultado &lt;- \n  lista %&gt;% \n  list_cbind()\n\n\n\n\n\n\na\nb\nc\nd\ne\nf\n\n\n\n\n1\n2\n3\n4\n5\n6\n\n\n2\n3\n4\n5\n6\n7\n\n\n3\n4\n5\n6\n7\n8\n\n\n\n\n\n\n\n\n\n\nlist_rbind()\nUne dataframes contenidos en una lista en un único dataframe por fila.\n\n\n\n\n\n\nFormula general\n\n\n\n\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\ndf1 &lt;- \n  tibble(\n    a = c(1, 2, 3),\n    b = c(2, 3, 4)\n  )\n\ndf2 &lt;- \n  tibble(\n    a = c(3, 4, 5),\n    b = c(4, 5, 6)\n  )\n\ndf3 &lt;- \n  tibble(\n    a = c(5, 6, 7),\n    b = c(6, 7, 8)\n  )\n\n\n\n\n\n\n\n\n\n\n\na\n\n\nb\n\n\n\n\n\n\n1\n\n\n2\n\n\n\n\n2\n\n\n3\n\n\n\n\n3\n\n\n4\n\n\n\n\n\n\n\n\n\n\n\na\n\n\nb\n\n\n\n\n\n\n3\n\n\n4\n\n\n\n\n4\n\n\n5\n\n\n\n\n5\n\n\n6\n\n\n\n\n\n\n\n\n\n\n\na\n\n\nb\n\n\n\n\n\n\n5\n\n\n6\n\n\n\n\n6\n\n\n7\n\n\n\n\n7\n\n\n8\n\n\n\n\n\n\n\nlista &lt;- \n  list(df1, df2, df3)\n\nresultado &lt;- \n  lista %&gt;% \n  list_rbind()\n\n\n\n\n\n\na\nb\n\n\n\n\n1\n2\n\n\n2\n3\n\n\n3\n4\n\n\n3\n4\n\n\n4\n5\n\n\n5\n6\n\n\n5\n6\n\n\n6\n7\n\n\n7\n8\n\n\n\n\n\n\n\n\n\n\npluck()\nExtrae un elemento de una lista o vector por nombre o indice, devuelve “NULL” si el elemento no existe. Siempre extrae 1 elemento.\n\n\n\n\n\n\nFormula general\n\n\n\nlista %&gt;% \n  pluck(nombre/posicion)\n\n\n\n\n\n\n\n\nEjemplo 1 nivel\n\n\n\n\n\n\nresultado &lt;- \n  lista %&gt;% \n  pluck(\"a\")\n\nequivalente a lista[[“a”]]\n\n\n\n\n\n\n\n\n\nEjemplo 2 niveles\n\n\n\n\n\n\nresultado &lt;- \n  lista %&gt;% \n  pluck(\"c\", \"d\")\n\nequivalente a lista[[“c”]][[“d”]]\n\n\n\n\n\n\n\n\n\nEjemplo error\n\n\n\n\n\nlista &lt;-\n  list(\n    a = c(1, 2, 3),\n    b = c(5, 6, 7),\n    c = c(8, 9, 10)\n  )\n\nresultado &lt;- \n  lista %&gt;% \n  pluck(\"d\")\n\n\n\n\n\n\nchuck()\nExtrae un elemento de una lista o vector por nombre o indice, arroja error si el elemento no existe.\n\n\n\n\n\n\nFormula general\n\n\n\nlista %&gt;% \n  chuck(nombre/indice)\n\n\n\n\n\n\n\n\nEjemplo 1 nivel\n\n\n\n\n\n\nresultado &lt;- \n  lista %&gt;% \n  chuck(\"a\")\n\nequivalente a lista[[“a”]]\n\n\n\n\n\n\n\n\n\nEjemplo 2 niveles\n\n\n\n\n\n\nresultado &lt;- \n  lista %&gt;% \n  chuck(\"c\", \"d\")\n\nequivalente a lista[[“c”]][[“d”]]\n\n\n\n\n\n\n\n\n\nEjemplo error\n\n\n\n\n\nlista &lt;-\n  list(\n    a = c(1, 2, 3),\n    b = c(5, 6, 7),\n    c = c(8, 9, 10)\n  )\n\nresultado &lt;- \n  lista %&gt;% \n  chuck(\"d\")\nError in chuck(., “d”) : Can’t find name d in vector.\n\n\n\n\n\npluck_depth()\nCuenta los niveles de anidación mayor contenido en la lista\n\n\n\n\n\n\nFormula general\n\n\n\nlista %&gt;% \n  pluck_depth()\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\nlista &lt;- \n  list(\n    \"1\" = \n      list(\n        \"2\" = list(3)\n      ),\n    \"2\" = \n      list(\n        \"2\" = list(5)\n      ),\n    \"3\" = \n      list(\n        \"2\" = list(7)\n      )\n  )\n\nresultado &lt;- \n  lista %&gt;% \n  pluck_depth()\n\n\n\n\n\n\nkeep()\nUtiliza un criterio dentro de una función basado en el valor de cada elemento de una lista o vector para mantener elementos.\n\n\n\n\n\n\nFormula general\n\n\n\nlista %&gt;% \n  keep(function(.x){\n    # .x: valor de cada elemento de la lista.\n  })\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\nlista &lt;-\n  list(\n    a = 1,\n    b = 2, \n    c = 3,\n    d = 4,\n    e = 5\n  )\n\nresultado &lt;- \n  lista %&gt;% \n  keep(function(.x){\n    .x &gt;= 3\n  })\n\n\n\n\n\n\nkeep_at()\nUtiliza un criterio dentro de una función basado en el nombre de cada elemento de una lista o vector para mantener elementos.\n\n\n\n\n\n\nFormula general\n\n\n\nlista %&gt;% \n  keep_at(function(.x){\n    # .x: nombre de cada elemento de la lista.\n  })\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\nlista &lt;-\n  list(\n    a = 1,\n    b = 2, \n    c = 3,\n    d = 4,\n    e = 5\n  )\n\nresultado &lt;- \n  lista %&gt;% \n  keep_at(function(.x){\n    .x %in% c(\"d\", \"e\")\n  })\n\n\n\n\n\n\ndiscard()\nUtiliza un criterio dentro de una función basado en el valor de cada elemento de una lista o vector para filtrar elementos.\n\n\n\n\n\n\nFormula general\n\n\n\nlista %&gt;% \n  discard(function(.x){\n    # .x: valor de cada elemento de la lista.\n  })\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\nlista &lt;-\n  list(\n    a = 1,\n    b = 2, \n    c = 3,\n    d = 4,\n    e = 5\n  )\n\nresultado &lt;- \n  lista %&gt;% \n  discard(function(.x){\n    .x &gt;= 3\n  })\n\n\n\n\n\n\ndiscard_at()\nUtiliza un criterio dentro de una función basado en el nombre de cada elemento de una lista o vector para filtrar elementos.\n\n\n\n\n\n\nFormula general\n\n\n\nlista %&gt;% \n  discard_at(function(.x){\n    # .x: nombre de cada elemento de la lista.\n  })\n\n\n\n\n\n\n\n\nEjemplo\n\n\n\n\n\nlista &lt;-\n  list(\n    a = 1,\n    b = 2, \n    c = 3,\n    d = 4,\n    e = 5\n  )\n\nresultado &lt;- \n  lista %&gt;% \n  discard_at(function(.x){\n    .x %in% c(\"d\", \"e\")\n  })",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>purrr</span>"
+    ]
+  },
+  {
+    "objectID": "07. readr.html",
+    "href": "07. readr.html",
+    "title": "7  readr",
     "section": "",
     "text": "7.1 titulo 1",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>paquete</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>readr</span>"
     ]
   },
   {
-    "objectID": "06. readr.html#titulo-1",
-    "href": "06. readr.html#titulo-1",
-    "title": "7  paquete",
+    "objectID": "07. readr.html#titulo-1",
+    "href": "07. readr.html#titulo-1",
+    "title": "7  readr",
     "section": "",
     "text": "titulo 2",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>paquete</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>readr</span>"
     ]
   },
   {
-    "objectID": "07. stringr.html",
-    "href": "07. stringr.html",
+    "objectID": "08. stringr.html",
+    "href": "08. stringr.html",
     "title": "8  stringr",
     "section": "",
     "text": "8.1 titulo 1",
@@ -410,8 +260,8 @@
     ]
   },
   {
-    "objectID": "07. stringr.html#titulo-1",
-    "href": "07. stringr.html#titulo-1",
+    "objectID": "08. stringr.html#titulo-1",
+    "href": "08. stringr.html#titulo-1",
     "title": "8  stringr",
     "section": "",
     "text": "titulo 2",
@@ -420,8 +270,8 @@
     ]
   },
   {
-    "objectID": "08. tibble.html",
-    "href": "08. tibble.html",
+    "objectID": "09. tibble.html",
+    "href": "09. tibble.html",
     "title": "9  tibble",
     "section": "",
     "text": "9.1 titulo 1",
@@ -430,8 +280,8 @@
     ]
   },
   {
-    "objectID": "08. tibble.html#titulo-1",
-    "href": "08. tibble.html#titulo-1",
+    "objectID": "09. tibble.html#titulo-1",
+    "href": "09. tibble.html#titulo-1",
     "title": "9  tibble",
     "section": "",
     "text": "titulo 2",
@@ -440,8 +290,8 @@
     ]
   },
   {
-    "objectID": "09. tidyr.html",
-    "href": "09. tidyr.html",
+    "objectID": "10. tidyr.html",
+    "href": "10. tidyr.html",
     "title": "10  tidyr",
     "section": "",
     "text": "10.1 titulo 1",
@@ -450,8 +300,8 @@
     ]
   },
   {
-    "objectID": "09. tidyr.html#titulo-1",
-    "href": "09. tidyr.html#titulo-1",
+    "objectID": "10. tidyr.html#titulo-1",
+    "href": "10. tidyr.html#titulo-1",
     "title": "10  tidyr",
     "section": "",
     "text": "titulo 2",
@@ -460,8 +310,8 @@
     ]
   },
   {
-    "objectID": "10. tidyselect.html",
-    "href": "10. tidyselect.html",
+    "objectID": "11. tidyselect.html",
+    "href": "11. tidyselect.html",
     "title": "11  tidyselect",
     "section": "",
     "text": "11.1 titulo 1",
@@ -470,8 +320,8 @@
     ]
   },
   {
-    "objectID": "10. tidyselect.html#titulo-1",
-    "href": "10. tidyselect.html#titulo-1",
+    "objectID": "11. tidyselect.html#titulo-1",
+    "href": "11. tidyselect.html#titulo-1",
     "title": "11  tidyselect",
     "section": "",
     "text": "titulo 2",
@@ -480,8 +330,8 @@
     ]
   },
   {
-    "objectID": "11. fs.html",
-    "href": "11. fs.html",
+    "objectID": "12. fs.html",
+    "href": "12. fs.html",
     "title": "12  fs",
     "section": "",
     "text": "12.1 titulo 1",
@@ -490,8 +340,8 @@
     ]
   },
   {
-    "objectID": "11. fs.html#titulo-1",
-    "href": "11. fs.html#titulo-1",
+    "objectID": "12. fs.html#titulo-1",
+    "href": "12. fs.html#titulo-1",
     "title": "12  fs",
     "section": "",
     "text": "titulo 2",
@@ -500,8 +350,8 @@
     ]
   },
   {
-    "objectID": "12. readxl.html",
-    "href": "12. readxl.html",
+    "objectID": "13. readxl.html",
+    "href": "13. readxl.html",
     "title": "13  readxl",
     "section": "",
     "text": "13.1 titulo 1",
@@ -510,8 +360,8 @@
     ]
   },
   {
-    "objectID": "12. readxl.html#titulo-1",
-    "href": "12. readxl.html#titulo-1",
+    "objectID": "13. readxl.html#titulo-1",
+    "href": "13. readxl.html#titulo-1",
     "title": "13  readxl",
     "section": "",
     "text": "titulo 2",
@@ -520,8 +370,8 @@
     ]
   },
   {
-    "objectID": "13. glue.html",
-    "href": "13. glue.html",
+    "objectID": "14. glue.html",
+    "href": "14. glue.html",
     "title": "14  glue",
     "section": "",
     "text": "14.1 titulo 1",
@@ -530,8 +380,8 @@
     ]
   },
   {
-    "objectID": "13. glue.html#titulo-1",
-    "href": "13. glue.html#titulo-1",
+    "objectID": "14. glue.html#titulo-1",
+    "href": "14. glue.html#titulo-1",
     "title": "14  glue",
     "section": "",
     "text": "titulo 2",
@@ -540,8 +390,8 @@
     ]
   },
   {
-    "objectID": "14. haven.html",
-    "href": "14. haven.html",
+    "objectID": "15. haven.html",
+    "href": "15. haven.html",
     "title": "15  haven",
     "section": "",
     "text": "15.1 titulo 1",
@@ -550,8 +400,8 @@
     ]
   },
   {
-    "objectID": "14. haven.html#titulo-1",
-    "href": "14. haven.html#titulo-1",
+    "objectID": "15. haven.html#titulo-1",
+    "href": "15. haven.html#titulo-1",
     "title": "15  haven",
     "section": "",
     "text": "titulo 2",
@@ -560,8 +410,8 @@
     ]
   },
   {
-    "objectID": "15. here.html",
-    "href": "15. here.html",
+    "objectID": "16. here.html",
+    "href": "16. here.html",
     "title": "16  here",
     "section": "",
     "text": "16.1 titulo 1",
@@ -570,8 +420,8 @@
     ]
   },
   {
-    "objectID": "15. here.html#titulo-1",
-    "href": "15. here.html#titulo-1",
+    "objectID": "16. here.html#titulo-1",
+    "href": "16. here.html#titulo-1",
     "title": "16  here",
     "section": "",
     "text": "titulo 2",
@@ -580,8 +430,8 @@
     ]
   },
   {
-    "objectID": "16. hms.html",
-    "href": "16. hms.html",
+    "objectID": "17. hms.html",
+    "href": "17. hms.html",
     "title": "17  hms",
     "section": "",
     "text": "17.1 titulo 1",
@@ -590,8 +440,8 @@
     ]
   },
   {
-    "objectID": "16. hms.html#titulo-1",
-    "href": "16. hms.html#titulo-1",
+    "objectID": "17. hms.html#titulo-1",
+    "href": "17. hms.html#titulo-1",
     "title": "17  hms",
     "section": "",
     "text": "titulo 2",
@@ -600,8 +450,8 @@
     ]
   },
   {
-    "objectID": "17. gt.html",
-    "href": "17. gt.html",
+    "objectID": "18. gt.html",
+    "href": "18. gt.html",
     "title": "18  gt",
     "section": "",
     "text": "18.1 titulo 1",
@@ -610,8 +460,8 @@
     ]
   },
   {
-    "objectID": "17. gt.html#titulo-1",
-    "href": "17. gt.html#titulo-1",
+    "objectID": "18. gt.html#titulo-1",
+    "href": "18. gt.html#titulo-1",
     "title": "18  gt",
     "section": "",
     "text": "titulo 2",
@@ -620,8 +470,8 @@
     ]
   },
   {
-    "objectID": "18. quarto.html",
-    "href": "18. quarto.html",
+    "objectID": "19. quarto.html",
+    "href": "19. quarto.html",
     "title": "19  quarto",
     "section": "",
     "text": "19.1 titulo 1",
@@ -630,8 +480,8 @@
     ]
   },
   {
-    "objectID": "18. quarto.html#titulo-1",
-    "href": "18. quarto.html#titulo-1",
+    "objectID": "19. quarto.html#titulo-1",
+    "href": "19. quarto.html#titulo-1",
     "title": "19  quarto",
     "section": "",
     "text": "titulo 2",
@@ -640,8 +490,8 @@
     ]
   },
   {
-    "objectID": "19. tidylog.html",
-    "href": "19. tidylog.html",
+    "objectID": "20. tidylog.html",
+    "href": "20. tidylog.html",
     "title": "20  tidylog",
     "section": "",
     "text": "20.1 titulo 1",
@@ -650,8 +500,8 @@
     ]
   },
   {
-    "objectID": "19. tidylog.html#titulo-1",
-    "href": "19. tidylog.html#titulo-1",
+    "objectID": "20. tidylog.html#titulo-1",
+    "href": "20. tidylog.html#titulo-1",
     "title": "20  tidylog",
     "section": "",
     "text": "titulo 2",
@@ -660,8 +510,8 @@
     ]
   },
   {
-    "objectID": "20. janitor.html",
-    "href": "20. janitor.html",
+    "objectID": "21. janitor.html",
+    "href": "21. janitor.html",
     "title": "21  janitor",
     "section": "",
     "text": "21.1 titulo 1",
@@ -670,8 +520,8 @@
     ]
   },
   {
-    "objectID": "20. janitor.html#titulo-1",
-    "href": "20. janitor.html#titulo-1",
+    "objectID": "21. janitor.html#titulo-1",
+    "href": "21. janitor.html#titulo-1",
     "title": "21  janitor",
     "section": "",
     "text": "titulo 2",
@@ -680,8 +530,8 @@
     ]
   },
   {
-    "objectID": "21. CTT.html",
-    "href": "21. CTT.html",
+    "objectID": "22. CTT.html",
+    "href": "22. CTT.html",
     "title": "22  CTT",
     "section": "",
     "text": "22.1 titulo 1",
@@ -690,8 +540,8 @@
     ]
   },
   {
-    "objectID": "21. CTT.html#titulo-1",
-    "href": "21. CTT.html#titulo-1",
+    "objectID": "22. CTT.html#titulo-1",
+    "href": "22. CTT.html#titulo-1",
     "title": "22  CTT",
     "section": "",
     "text": "titulo 2",
@@ -700,8 +550,8 @@
     ]
   },
   {
-    "objectID": "22. Mplus Automation.html",
-    "href": "22. Mplus Automation.html",
+    "objectID": "23. Mplus Automation.html",
+    "href": "23. Mplus Automation.html",
     "title": "23  Mplus Automation",
     "section": "",
     "text": "23.1 titulo 1",
@@ -710,8 +560,8 @@
     ]
   },
   {
-    "objectID": "22. Mplus Automation.html#titulo-1",
-    "href": "22. Mplus Automation.html#titulo-1",
+    "objectID": "23. Mplus Automation.html#titulo-1",
+    "href": "23. Mplus Automation.html#titulo-1",
     "title": "23  Mplus Automation",
     "section": "",
     "text": "titulo 2",
@@ -720,8 +570,8 @@
     ]
   },
   {
-    "objectID": "23. TAM.html",
-    "href": "23. TAM.html",
+    "objectID": "24. TAM.html",
+    "href": "24. TAM.html",
     "title": "24  TAM",
     "section": "",
     "text": "24.1 titulo 1",
@@ -730,8 +580,8 @@
     ]
   },
   {
-    "objectID": "23. TAM.html#titulo-1",
-    "href": "23. TAM.html#titulo-1",
+    "objectID": "24. TAM.html#titulo-1",
+    "href": "24. TAM.html#titulo-1",
     "title": "24  TAM",
     "section": "",
     "text": "titulo 2",
@@ -740,8 +590,8 @@
     ]
   },
   {
-    "objectID": "24. mirt.html",
-    "href": "24. mirt.html",
+    "objectID": "25. mirt.html",
+    "href": "25. mirt.html",
     "title": "25  mirt",
     "section": "",
     "text": "25.1 titulo 1",
@@ -750,8 +600,8 @@
     ]
   },
   {
-    "objectID": "24. mirt.html#titulo-1",
-    "href": "24. mirt.html#titulo-1",
+    "objectID": "25. mirt.html#titulo-1",
+    "href": "25. mirt.html#titulo-1",
     "title": "25  mirt",
     "section": "",
     "text": "titulo 2",
@@ -760,8 +610,8 @@
     ]
   },
   {
-    "objectID": "25. psych.html",
-    "href": "25. psych.html",
+    "objectID": "26. psych.html",
+    "href": "26. psych.html",
     "title": "26  psych",
     "section": "",
     "text": "26.1 titulo 1",
@@ -770,8 +620,8 @@
     ]
   },
   {
-    "objectID": "25. psych.html#titulo-1",
-    "href": "25. psych.html#titulo-1",
+    "objectID": "26. psych.html#titulo-1",
+    "href": "26. psych.html#titulo-1",
     "title": "26  psych",
     "section": "",
     "text": "titulo 2",
@@ -780,8 +630,8 @@
     ]
   },
   {
-    "objectID": "26. corrr.html",
-    "href": "26. corrr.html",
+    "objectID": "27. corrr.html",
+    "href": "27. corrr.html",
     "title": "27  corrr",
     "section": "",
     "text": "27.1 titulo 1",
@@ -790,8 +640,8 @@
     ]
   },
   {
-    "objectID": "26. corrr.html#titulo-1",
-    "href": "26. corrr.html#titulo-1",
+    "objectID": "27. corrr.html#titulo-1",
+    "href": "27. corrr.html#titulo-1",
     "title": "27  corrr",
     "section": "",
     "text": "titulo 2",
@@ -800,8 +650,8 @@
     ]
   },
   {
-    "objectID": "27. Survey.html",
-    "href": "27. Survey.html",
+    "objectID": "28. Survey.html",
+    "href": "28. Survey.html",
     "title": "28  survey",
     "section": "",
     "text": "28.1 titulo 1",
@@ -810,8 +660,8 @@
     ]
   },
   {
-    "objectID": "27. Survey.html#titulo-1",
-    "href": "27. Survey.html#titulo-1",
+    "objectID": "28. Survey.html#titulo-1",
+    "href": "28. Survey.html#titulo-1",
     "title": "28  survey",
     "section": "",
     "text": "titulo 2",
@@ -820,8 +670,8 @@
     ]
   },
   {
-    "objectID": "28. shiny.html",
-    "href": "28. shiny.html",
+    "objectID": "29. shiny.html",
+    "href": "29. shiny.html",
     "title": "29  shiny",
     "section": "",
     "text": "29.1 titulo 1",
@@ -830,8 +680,8 @@
     ]
   },
   {
-    "objectID": "28. shiny.html#titulo-1",
-    "href": "28. shiny.html#titulo-1",
+    "objectID": "29. shiny.html#titulo-1",
+    "href": "29. shiny.html#titulo-1",
     "title": "29  shiny",
     "section": "",
     "text": "titulo 2",
